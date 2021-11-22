@@ -1,0 +1,30 @@
+$SPACING-MINI: 4px !default;
+$SPACING-SMALL: 8px !default;
+$SPACING-NORMAL: 16px !default;
+$SPACING-LARGE: 32px !default;
+
+$COLOR-WHITE: #fff !default;
+$COLOR-BLACK: #000 !default;
+$COLOR-PRIMARY: #2f54eb !default;
+$COLOR-SUCCESS: #52c41a !default;
+$COLOR-WARN: #fa8c16 !default;
+$COLOR-DANGER: #f5222d !default;
+$COLOR-GREY: mix(grayscale($COLOR-PRIMARY), $COLOR-PRIMARY, 80%) !default;
+
+$FONT_SIZE-SMALL: 12px !default;
+$FONT_SIZE-NORMAL: 14px !default;
+$FONT_SIZE-LARGE: 16px !default;
+$FONT_SIZE-LARGER: 18px !default;
+
+$FONT_COLOR-PRIMARY: mix($COLOR-GREY, $COLOR-BLACK, 20%) !default;
+$FONT_COLOR-NORMAL: mix($COLOR-GREY, $COLOR-BLACK, 50%) !default;
+$FONT_COLOR-SECONDARY: mix($COLOR-GREY, $COLOR-BLACK, 80%) !default;
+
+$BACKGROUND_COLOR-NORMAL: rgba($COLOR-GREY, 0.2) !default;
+
+$BORDER_RADIUS-NORMAL: 8px !default;
+$BORDER_RADIUS-CIRCLE: 50% !default;
+
+$TRANSITION_DURATION-SHORT: 0.2s !default;
+$TRANSITION_DURATION-NORMAL: 0.4s !default;
+$TRANSITION_DURATION-LONG: 0.8s !default;
